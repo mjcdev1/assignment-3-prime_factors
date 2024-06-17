@@ -33,3 +33,6 @@ def test_for_six():
     
 def test_for_eight():
     assert prime.generate_prime_factors(8) == [2, 2, 2]
+    
+def test_for_nine():
+    assert prime.generate_prime_factors(9) == [3, 3]
