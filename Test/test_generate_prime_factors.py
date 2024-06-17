@@ -15,3 +15,6 @@ def test_not_int():
         prime.generate_prime_factors("hello")
         prime.generate_prime_factors(3.5)
         prime.generate_prime_factors([2, 3])
+        
+def test_for_one():
+    assert prime.generate_prime_factors(1) == []
