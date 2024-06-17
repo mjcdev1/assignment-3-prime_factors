@@ -17,5 +17,3 @@ def generate_prime_factors(n):
         div += 1
         
     return factors
-    
-print(generate_prime_factors(4))
