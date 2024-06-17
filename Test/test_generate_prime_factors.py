@@ -27,3 +27,6 @@ def test_for_three():
     
 def test_for_four():
     assert prime.generate_prime_factors(4) == [2, 2]
+    
+def test_for_five():
+    assert prime.generate_prime_factors(6) == [2, 3]
