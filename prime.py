@@ -8,10 +8,14 @@ def generate_prime_factors(n):
         
     factors = []
     
-    while n % 2 == 0:
-        factors.append(2)
-        n = n // 2
+    div = 2 
     
+    while n > 1:
+        while n % div == 0:
+            factors.append(div)
+            n = n // div
+        div += 1
+        
     return factors
     
 print(generate_prime_factors(4))

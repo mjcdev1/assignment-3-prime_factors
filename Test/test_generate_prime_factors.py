@@ -21,3 +21,6 @@ def test_for_one():
     
 def test_for_two():
     assert prime.generate_prime_factors(2) == [2]
+    
+def test_for_three():
+    assert prime.generate_prime_factors(3) == [3]
