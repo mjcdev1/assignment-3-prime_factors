@@ -18,3 +18,6 @@ def test_not_int():
         
 def test_for_one():
     assert prime.generate_prime_factors(1) == []
+    
+def test_for_two():
+    assert prime.generate_prime_factors(2) == [2]
