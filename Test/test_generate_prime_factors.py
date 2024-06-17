@@ -28,5 +28,8 @@ def test_for_three():
 def test_for_four():
     assert prime.generate_prime_factors(4) == [2, 2]
     
-def test_for_five():
+def test_for_six():
     assert prime.generate_prime_factors(6) == [2, 3]
+    
+def test_for_eight():
+    assert prime.generate_prime_factors(8) == [2, 2, 2]
